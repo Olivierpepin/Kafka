@@ -42,7 +42,7 @@ for e in range(10):
     sleep(60)                                                       # Attente de la boucle (MAJ de l'API toute les minutes)
 
 # Récupérer des chiffres en string n'est pas pertinent.
-# Il serai tout à fait possible de changer le format avant de l'envoyer à Kafka avec par exemple :
+# Il serait tout à fait possible de changer le format avant de l'envoyer à Kafka avec par exemple :
 #    price_float = float(price)
 #    price_float = "{:.2f}".format(price_float)
 
