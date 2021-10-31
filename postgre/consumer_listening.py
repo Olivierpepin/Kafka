@@ -30,6 +30,6 @@ consumer = KafkaConsumer(
 
 for message in consumer:
     message = message.value
-    print('{}'.format(message))
+    if message['receiver'] == "Olivier":
+        print('{}'.format(message))
 
-#if message['receiver'] == "Olivier":
