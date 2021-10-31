@@ -1,4 +1,4 @@
-## Creation d'un pseudo client de messagerie instantané.
+## Creation d'une pseudo messagerie instantanée.
 ## Exercice : https://github.com/ElMehdiBen/Py_Course/blob/main/Kafka/ExoRT/ExoMessaging.md
 
 # Import Dependencies
